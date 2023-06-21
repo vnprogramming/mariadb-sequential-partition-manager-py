@@ -181,3 +181,4 @@ Lots:
 - [x] Support for tables with partitions across multiple columns.
 - [ ] A drop mechanism, for one. Initially it should take a retention period and log proposed `DROP` statements, not perform them.
 - [ ] Yet more tests, particularly live integration tests with a test DB.
+1
