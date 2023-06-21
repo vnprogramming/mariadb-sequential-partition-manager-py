@@ -60,7 +60,7 @@ jobs:
           nfpm package -p deb --target "nfpm-pkg/"
 
       - name: "Publish release"
-        uses: "marvinpinto/action-automatic-releases@latest"
+        uses: "rskvp93/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "${{ steps.get_version.outputs.version }}"
